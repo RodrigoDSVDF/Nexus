@@ -73,7 +73,7 @@ function App() {
 <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold bg-gradient-to-r from-cyan-400 to-emerald-400 bg-clip-text text-transparent drop-shadow-lg mb-4">
   Manual de Performance
 </h2>
-
+            
 <h3 className="text-2xl md:text-3xl lg:text-4xl font-extrabold drop-shadow-lg">
   <span className="text-white">com </span>
   <span className="text-blue-400 drop-shadow-[0_0_8px_#3b82f6]">
@@ -81,12 +81,13 @@ function App() {
   </span>
 </h3>
 
-            <div className="text-xl md:text-2xl text-gray-200 mb-12 max-w-3xl mx-auto font-light flex flex-col items-center text-center space-y-2">
-              <span>Domine a era da informação.</span>
-              <span>Transforme dados em decisões.</span>
-              <span>Faça da inovação sua maior vantagem competitiva.</span>
-              <span className="font-semibold text-cyan-400 mt-2">Torne-se o protagonista.</span>
-            </div>
+{/* Adicionamos mt-8 aqui para criar um espaço de 32px acima deste bloco */}
+<div className="mt-8 text-xl md:text-2xl text-gray-200 mb-12 max-w-3xl mx-auto font-light flex flex-col items-center text-center space-y-2">
+  <span>Domine a era da informação.</span>
+  <span>Transforme dados em decisões.</span>
+  <span>Faça da inovação sua maior vantagem competitiva.</span>
+  <span className="font-semibold text-cyan-400 mt-2">Torne-se o protagonista.</span>
+</div>
 
             <a href="https://pay.cakto.com.br/5dUKrWD" target="_blank" rel="noopener noreferrer">
               <Button size="md" className="h-auto whitespace-normal text-center bg-gradient-to-r from-cyan-400 to-blue-500 hover:from-cyan-300 hover:to-blue-400 text-slate-900 px-4 sm:px-6 py-3 text-sm sm:text-base font-bold rounded-xl shadow-2xl hover:shadow-cyan-400/30 transition-all duration-300 transform hover:scale-105 border-2 border-cyan-300/50" >
