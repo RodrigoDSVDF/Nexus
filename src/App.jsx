@@ -152,7 +152,7 @@ function App() {
                   <Target className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-4">Mapa</h3>
-                <p className="text-gray-300">Ferramentas que conectam você ao futuro econômico digital</p>
+                <p className="text-gray-300">Guia que conecta você ao futuro econômico informacional</p>
               </div>
             </div>
             <div className="group bg-gradient-to-br from-emerald-900/30 to-slate-800/30 p-8 rounded-3xl border border-emerald-500/20 hover:border-emerald-400/40 transition-all duration-300 hover:transform hover:scale-105 relative overflow-hidden">
@@ -164,7 +164,7 @@ function App() {
                   <TrendingUp className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-4">Toolbox 4.0</h3>
-                <p className="text-gray-300">Ferramentas inteligentes para guiar sua jornada no futuro digital</p>
+                <p className="text-gray-300">Ferramentas inteligentes para orientação de sua jornada no futuro digital</p>
               </div>
             </div>
             <div className="group bg-gradient-to-br from-blue-900/30 to-emerald-900/30 p-8 rounded-3xl border border-blue-500/20 hover:border-emerald-400/40 transition-all duration-300 hover:transform hover:scale-105 relative overflow-hidden">
