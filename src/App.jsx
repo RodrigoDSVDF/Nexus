@@ -152,7 +152,7 @@ function App() {
                   <Target className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-4">Mapa</h3>
-                <p className="text-gray-300">Guia que conecta você ao futuro econômico informacional</p>
+                <p className="text-gray-300">Guia que conecta você ao modelo econômico informacional</p>
               </div>
             </div>
             <div className="group bg-gradient-to-br from-emerald-900/30 to-slate-800/30 p-8 rounded-3xl border border-emerald-500/20 hover:border-emerald-400/40 transition-all duration-300 hover:transform hover:scale-105 relative overflow-hidden">
