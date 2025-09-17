@@ -64,6 +64,8 @@ function App() {
               <img src={nexusLogoImg} alt="NEXUS Logo" className="w-56 h-auto mx-auto mb-6" />
             </div>
 
+        
+
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight drop-shadow-lg break-words">
   O Próximo Nível
 </h1>
@@ -72,8 +74,11 @@ function App() {
   Manual de Performance
 </h2>
 
-<h3 className="text-2xl md:text-3xl lg:text-4xl font-extrabold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent drop-shadow-lg">
-  com Sistemas Cognitivos
+<h3 className="text-2xl md:text-3xl lg:text-4xl font-extrabold drop-shadow-lg">
+  <span className="text-white">com </span>
+  <span className="text-blue-400 drop-shadow-[0_0_8px_#3b82f6]">
+    Sistemas Cognitivos
+  </span>
 </h3>
 
             <div className="text-xl md:text-2xl text-gray-200 mb-12 max-w-3xl mx-auto font-light flex flex-col items-center text-center space-y-2">
