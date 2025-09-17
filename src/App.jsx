@@ -24,8 +24,9 @@ import produtividadeImg from './assets/produtividade.jpg';
 import redeNeuralAbstrataImg from './assets/rede-neural-abstrata.jpg';
 import xadrezStrategiaImg from './assets/xadrez-estrategia.jpg';
 import orgImg from './assets/org.jpg';
-// --- IMAGEM NOVA ADICIONADA ---
+// --- IMAGEM DE GARANTIA ADICIONADA ---
 import garantiaImg from './assets/7-dias-garantido.jpg';
+
 
 function App() {
   const [isVisible, setIsVisible] = useState(false)
@@ -440,14 +441,21 @@ function App() {
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Button>
             </a>
-            {/* --- INÍCIO DA IMAGEM ADICIONADA --- */}
-            <div className="mt-8 flex justify-center">
-                <img src={garantiaImg} alt="Garantia de 7 dias" className="w-auto h-auto max-w-xs" />
-            </div>
-            {/* --- FIM DA IMAGEM ADICIONADA --- */}
           </div>
         </div>
       </section>
+
+      {/* --- INÍCIO DA NOVA SEÇÃO DE GARANTIA --- */}
+      <section className="py-16 px-4">
+        <div className="max-w-2xl mx-auto text-center">
+          <img 
+            src={garantiaImg} 
+            alt="Selo de Garantia de 7 dias" 
+            className="mx-auto w-full max-w-md"
+          />
+        </div>
+      </section>
+      {/* --- FIM DA NOVA SEÇÃO DE GARANTIA --- */}
 
       {/* Footer */}
       <footer className="py-12 px-4 bg-slate-900 border-t border-slate-700">
