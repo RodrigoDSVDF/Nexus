@@ -201,7 +201,7 @@ function App() {
                   <Rocket className="w-10 h-10 text-white" />
                 </div>
                 <h3 className="text-2xl font-semibold text-white mb-4">Produtividade Exponencial</h3>
-                <p className="text-gray-300 text-lg">Elimine a sobrecarga digital e a sensação de estar sempre atrasado. Descubra como a IA pode ser sua assistente pessoal 24/7, trazendo foco, organização e resultados tangíveis todos os dias</p>
+                <p className="text-gray-300 text-lg">Elimine a sobrecarga digital e a sensação de estar sempre atrasado. Descubra como a IA pode ser sua assistente pessoal 24 horas por dia, trazendo foco, organização e resultados tangíveis todos os dias</p>
               </div>
             </div>
             <div className="group bg-gradient-to-br from-emerald-900/30 to-slate-800/30 p-10 rounded-3xl border border-emerald-500/20 hover:border-emerald-400/40 transition-all duration-300 hover:transform hover:scale-105 relative overflow-hidden">
