@@ -23,6 +23,7 @@ import servicosIAImg from './assets/servicos-ia.jpg';
 import produtividadeImg from './assets/produtividade.jpg';
 import redeNeuralAbstrataImg from './assets/rede-neural-abstrata.jpg';
 import xadrezStrategiaImg from './assets/xadrez-estrategia.jpg';
+import orgImg from './assets/org.jpg';
 
 function App() {
   const [isVisible, setIsVisible] = useState(false)
@@ -242,7 +243,7 @@ function App() {
             {/* --- INÍCIO DA NOVA SEÇÃO ADICIONADA --- */}
             <div className="group bg-gradient-to-br from-blue-900/30 to-slate-800/30 p-10 rounded-3xl border border-blue-500/20 hover:border-emerald-400/40 transition-all duration-300 hover:transform hover:scale-105 relative overflow-hidden">
               <div className="absolute inset-0 opacity-10">
-                <img src={laptopNeuralImg} alt="Organização e Eficiência" className="w-full h-full object-cover" />
+                <img src={orgImg} alt="Organização e Eficiência" className="w-full h-full object-cover" />
               </div>
               <div className="relative z-10">
                 <div className="w-20 h-20 bg-gradient-to-r from-blue-500 to-emerald-500 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-300">
