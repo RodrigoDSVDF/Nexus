@@ -445,24 +445,13 @@ function App() {
         </div>
       </section>
 
-      {/* --- INÍCIO DA NOVA SEÇÃO DE GARANTIA --- */}
-      <section className="py-16 px-4">
-        <div className="max-w-2xl mx-auto text-center">
-          <img 
-            src={garantiaImg} 
-            alt="Selo de Garantia de 7 dias" 
-            className="mx-auto w-full max-w-md"
-          />
-        </div>
-      </section>
-      {/* --- FIM DA NOVA SEÇÃO DE GARANTIA --- */}
-
       {/* Footer */}
       <footer className="py-12 px-4 bg-slate-900 border-t border-slate-700">
         <div className="max-w-6xl mx-auto text-center">
-          <p className="text-gray-400 text-lg">
+          <p className="text-gray-400 text-lg mb-8">
             © 2024 NEXUS - Manual de Alta Performance com IA. Todos os direitos reservados.
           </p>
+          <img src={garantiaImg} alt="Selo de Garantia de 7 dias" className="mx-auto" />
         </div>
       </footer>
     </div>
