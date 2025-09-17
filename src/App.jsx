@@ -25,7 +25,7 @@ import redeNeuralAbstrataImg from './assets/rede-neural-abstrata.jpg';
 import xadrezStrategiaImg from './assets/xadrez-estrategia.jpg';
 import orgImg from './assets/org.jpg';
 // --- IMAGEM DE GARANTIA ADICIONADA ---
-import garantiaImg from './assets/7-dias-garantido.jpg';
+import garantiaImg from './assets/7-dias-garantido(4).jpg';
 
 
 function App() {
