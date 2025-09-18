@@ -108,6 +108,10 @@ function App() {
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">
               Por que o <span className="bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">Nexus</span> é diferente?
             </h2>
+            {/* --- TEXTO ADICIONADO ABAIXO --- */}
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+              Muitas pessoas acreditam que sabem utilizar inteligência artificial, mas não alcançam seu pleno potencial porque não entendem como extrair dessa tecnologia a sua verdadeira capacidade.
+            </p>
           </div>
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
