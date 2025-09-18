@@ -110,7 +110,7 @@ function App() {
             </h2>
             {/* --- TEXTO ADICIONADO ABAIXO --- */}
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Muitas pessoas acreditam que sabem utilizar inteligência artificial, mas não alcançam seu pleno potencial porque não entendem como extrair dessa tecnologia a sua verdadeira capacidade.
+              Muitas pessoas acham que sabem usar inteligência artificial, mas não atingem alto rendimento porque não conseguem extrair dela  o seu verdadeiro potencial
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-16 items-center">
