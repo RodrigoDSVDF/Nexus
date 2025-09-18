@@ -64,7 +64,7 @@ function App() {
               <img src={nexusLogoImg} alt="NEXUS Logo" className="w-56 h-auto mx-auto mb-6" />
             </div>
 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight drop-shadow-lg break-words">
-  Sua Vantagem Cognitiva Decisiva
+  Produtividade em Alto Nível
 </h1>
 
 <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold bg-gradient-to-r from-cyan-400 to-emerald-400 bg-clip-text text-transparent drop-shadow-lg mb-4">
