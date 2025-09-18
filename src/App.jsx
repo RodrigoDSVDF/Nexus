@@ -68,13 +68,13 @@ function App() {
 </h1>
 
 <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold bg-gradient-to-r from-cyan-400 to-emerald-400 bg-clip-text text-transparent drop-shadow-lg mb-4">
-  Manual de Performance
+   Performance Aplicada
 </h2>
             
 <h3 className="text-2xl md:text-3xl lg:text-4xl font-extrabold drop-shadow-lg">
   <span className="text-white">com </span>
   <span className="text-blue-400 drop-shadow-[0_0_8px_#3b82f6]">
-    Sistemas Cognitivos
+    Inteligência Artificial 
   </span>
 </h3>
 
