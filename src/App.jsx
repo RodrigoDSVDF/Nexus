@@ -450,12 +450,19 @@ function App() {
               Junte-se a milhares de profissionais que já transformaram sua performance
             </p>
             <a href="https://pay.cakto.com.br/5dUKrWD" target="_blank" rel="noopener noreferrer">
-              <Button size="md" className="h-auto whitespace-normal text-center bg-gradient-to-r from-emerald-400 to-blue-500 hover:from-emerald-300 hover:to-blue-400 text-slate-900 px-4 sm:px-6 py-3 text-sm sm:text-base font-bold rounded-xl shadow-2xl hover:shadow-emerald-400/30 transition-all duration-300 transform hover:scale-105 border-2 border-emerald-300/50" >
+              <Button size="md" className="h-auto whitespace-normal text-center bg-gradient-to-r from-orange-400 to-red-500 hover:from-orange-300 hover:to-red-400 text-white px-4 sm:px-6 py-3 text-sm sm:text-base font-bold rounded-xl shadow-2xl hover:shadow-orange-400/40 transition-all duration-300 transform hover:scale-105 border-2 border-orange-300/50" >
                 <Rocket className="w-5 h-5 mr-2" />
                 Começar Minha Transformação Agora
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Button>
             </a>
+            {/* --- GARANTIA ADICIONADA ABAIXO --- */}
+            <div className="mt-8 text-gray-400 max-w-md mx-auto">
+              <p className="font-semibold text-lg text-white mb-2">🛡️ Garantia de 7 Dias</p>
+              <p className="text-sm leading-relaxed">
+                Experimente o NEXUS sem risco. Se em 7 dias você não sentir que está evoluindo exponencialmente, devolvemos seu investimento — sem perguntas.
+              </p>
+            </div>
           </div>
         </div>
       </section>
