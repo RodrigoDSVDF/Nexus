@@ -82,7 +82,8 @@ function App() {
 <div className="mt-8 text-xl md:text-2xl text-gray-200 mb-12 max-w-3xl mx-auto font-light flex flex-col items-center text-center space-y-2">
   <span>Domine a era da informação.</span>
   <span>Transforme dados em inteligência.</span>
-  <span>Faça da inovação seu diferencial seja o protagonista do futuro.</span>
+  <span>Faça da inovação seu diferencial.</span>
+  </span>seja o protagonista do futuro.</span>
   <span className="font-semibold text-cyan-400 mt-2">Torne-se o protagonista.</span>
 </div>
 
