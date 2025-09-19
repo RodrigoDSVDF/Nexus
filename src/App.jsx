@@ -83,7 +83,7 @@ function App() {
   <span>Domine a era da informação.</span>
   <span>Transforme dados em inteligência.</span>
   <span>Faça da inovação seu diferencial.</span>
-  </span>seja o protagonista do futuro.</span>
+  <span>seja o protagonista do futuro.</span>
   <span className="font-semibold text-cyan-400 mt-2">Torne-se o protagonista.</span>
 </div>
 
