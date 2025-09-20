@@ -15,10 +15,10 @@ permissions:
   pages: write
   id-token: write
 
-# Garante que apenas 1 deploy ocorra por vez
+# Garante que apenas 1 deploy ocorra por vez, mas cancela o anterior se houver novo
 concurrency:
   group: 'pages'
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
