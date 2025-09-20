@@ -56,30 +56,5 @@ jobs:
           path: './dist'
 
       - name: Deploy para GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4
-      - name: Set up Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18.x' # Usar '18.x' é uma boa prática
-          cache: 'pnpm'
-      # --- FIM DA ALTERAÇÃO ---
-
-      - name: Install dependencies
-        run: pnpm install
-        
-      - name: Build
-        run: pnpm run build
-        
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-        
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          # Upload a pasta 'dist' que o Vite gera
-          path: './dist'
-          
-      - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
