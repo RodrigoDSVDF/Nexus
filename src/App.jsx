@@ -110,7 +110,7 @@ function App() {
             </h2>
             {/* --- TEXTO ADICIONADO ABAIXO --- */}
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Muitas pessoas acham que sabem usar inteligência artificial, mas não atingem alto rendimento porque não conseguem extrair dela  o seu verdadeiro potencial
+              Acesso à AI tornou-se um recurso comum. A habilidade de comandá-la é o novo e raro monopólio do talento.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-16 items-center">
