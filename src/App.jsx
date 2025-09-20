@@ -334,7 +334,7 @@ function App() {
           </h2>
           <div className="bg-gradient-to-br from-blue-900/40 to-emerald-900/40 p-12 md:p-16 rounded-3xl border border-cyan-500/30 backdrop-blur-sm mb-12">
             <p className="text-2xl md:text-3xl text-white font-medium leading-relaxed mb-12">
-              Você chegou até aqui porque busca mais do que informação: deseja <span className="bg-gradient-to-r from-cyan-400 to-emerald-400 bg-clip-text text-transparent font-bold">transformação real</span>.
+              Você chegou até aqui porque busca mais do que informação: deseja <span className="bg-gradient-to-r from-cyan-400 to-emerald-400 bg-clip-text text-transparent font-bold">transformação real.</span>
             </p>
             <p className="text-xl md:text-2xl text-gray-200 leading-relaxed mb-12">
               Pare de perder tempo com conteúdos superficiais. O NEXUS é o único conteúdo que você precisa para dominar a IA e transformar sua performance. Não é um atalho, é a rota principal para quem leva seu desenvolvimento a sério. Resultados reais:
