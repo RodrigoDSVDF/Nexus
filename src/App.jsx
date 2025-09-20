@@ -365,7 +365,7 @@ function App() {
           </div>
           <div className="text-center mb-12">
             <p className="text-2xl text-cyan-300 mb-8 font-medium">
-              👉 Toque agora e conheça o NEXUS — sua jornada para a alta performance começa hoje.
+              👉 Toque agora e conheça o NEXUS — o sistema de comando para alta perfomance com Sistemas Cognitivos.
             </p>
             <a href="https://pay.cakto.com.br/5dUKrWD" target="_blank" rel="noopener noreferrer">
               <Button size="md" className="bg-gradient-to-r from-orange-400 to-red-500 hover:from-orange-300 hover:to-red-400 text-white px-6 py-3 text-base font-bold rounded-xl shadow-2xl hover:shadow-orange-400/40 transition-all duration-300 transform hover:scale-105 border-2 border-orange-300/50 animate-pulse" >
