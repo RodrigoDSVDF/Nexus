@@ -460,7 +460,7 @@ function App() {
             <div className="mt-8 text-gray-400 max-w-md mx-auto">
               <p className="font-semibold text-lg text-white mb-2">🛡️ Garantia de 7 Dias</p>
               <p className="text-sm leading-relaxed">
-                Experimente o NEXUS sem risco. Se em 7 dias você não sentir que está evoluindo exponencialmente, devolvemos seu investimento — sem perguntas.
+                Experimente o NEXUS sem risco. Se em 7 dias você não perceber uma mudança fundamental na forma como você interage com a tecnologia e amplifica seus resultados, devolvemos seu investimento — sem perguntas.
               </p>
             </div>
           </div>
