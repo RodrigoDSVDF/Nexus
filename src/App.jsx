@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Button } from '@/components/ui/button.jsx'
-// --- ÍCONES NOVOS E ANTERIORES ADICIONADOS ---
+// --- LISTA DE ÍCONES COMPLETA E ATUALIZADA ---
 import { ArrowRight, Zap, Target, Globe, Key, Rocket, BookOpen, Brain, TrendingUp, CheckCircle, Sparkles, LayoutList, User, Lightbulb, Search, Eye } from 'lucide-react'
 import './App.css'
 
@@ -85,7 +85,7 @@ function App() {
         </div>
       </section>
 
-      {/* --- SEÇÃO DO MANIFESTO NEXUS --- */}
+      {/* --- INÍCIO DA NOVA SEÇÃO DO MANIFESTO (VERSÃO COMPLETA) --- */}
       <section className="py-32 px-4 bg-slate-800/20">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-20">
@@ -93,7 +93,7 @@ function App() {
               Mais que Ferramentas. <span className="bg-gradient-to-r from-cyan-400 to-emerald-400 bg-clip-text text-transparent">Uma Jornada.</span>
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Na internet de hoje, a inteligência artificial virou commodity. Mas em meio a tanto ruído, o que mais falta é <strong className="text-white">sentido</strong>.
+              Na internet de hoje, a inteligência artificial virou commodity. Em meio a tanto ruído, o que mais falta é <strong className="text-white">sentido</strong>.
             </p>
           </div>
           
@@ -115,9 +115,10 @@ function App() {
               </div>
             </div>
             
-            {/* Coluna da Direita: Pilares */}
+            {/* Coluna da Direita: Pilares (VERSÃO COMPLETA) */}
             <div className="space-y-6">
-              <h3 className="text-2xl font-semibold text-white mb-4 text-center md:text-left">Um guia para alto desempenho cognitivo e emocional, com base em pilares como:</h3>
+              <h3 className="text-2xl font-semibold text-white mb-4 text-center md:text-left">Um guia para alto desempenho com base em pilares como:</h3>
+              
               <div className="flex items-start space-x-4 p-4 rounded-xl hover:bg-slate-700/50 transition-colors duration-300">
                 <div className="w-10 h-10 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg flex items-center justify-center flex-shrink-0">
                   <Eye className="w-5 h-5 text-white" />
@@ -145,8 +146,17 @@ function App() {
                   <p className="text-gray-400 text-sm">Aprenda a arte de fazer as perguntas certas para obter respostas extraordinárias.</p>
                 </div>
               </div>
-               <div className="flex items-start space-x-4 p-4 rounded-xl hover:bg-slate-700/50 transition-colors duration-300">
+              <div className="flex items-start space-x-4 p-4 rounded-xl hover:bg-slate-700/50 transition-colors duration-300">
                 <div className="w-10 h-10 bg-gradient-to-r from-cyan-500 to-emerald-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <BookOpen className="w-5 h-5 text-white" />
+                </div>
+                <div>
+                  <h4 className="font-semibold text-white">Educação Transformadora</h4>
+                  <p className="text-gray-400 text-sm">Onde você não apenas executa, mas compreende; não apenas repete, mas cria.</p>
+                </div>
+              </div>
+              <div className="flex items-start space-x-4 p-4 rounded-xl hover:bg-slate-700/50 transition-colors duration-300">
+                <div className="w-10 h-10 bg-gradient-to-r from-emerald-500 to-blue-500 rounded-lg flex items-center justify-center flex-shrink-0">
                   <User className="w-5 h-5 text-white" />
                 </div>
                 <div>
@@ -157,7 +167,25 @@ function App() {
             </div>
           </div>
           
-          <div className="mt-20 text-center max-w-4xl mx-auto">
+          {/* Bloco de Destaque para Propósito e Comunicação */}
+          <div className="mt-24 max-w-4xl mx-auto text-center">
+            <div className="bg-slate-800/50 p-10 rounded-3xl border border-cyan-500/20 backdrop-blur-sm">
+                <h3 className="text-3xl font-bold text-white mb-6">
+                  O Grande Catalisador: <span className="bg-gradient-to-r from-cyan-400 to-emerald-400 bg-clip-text text-transparent">A Comunicação Intencional</span>
+                </h3>
+                <p className="text-lg text-gray-300 mb-6">
+                  Não a comunicação superficial das redes sociais. Mas a que <strong className="text-white">formula perguntas melhores</strong>, <strong className="text-white">estrutura pensamentos</strong> e <strong className="text-white">conecta pessoas e ideias</strong>.
+                </p>
+                <p className="text-xl text-cyan-300 font-medium">
+                  Nosso propósito é claro: Fazer o binômio entre I.A. e Transformação Pessoal.
+                </p>
+            </div>
+          </div>
+          
+          <div className="mt-24 text-center max-w-4xl mx-auto">
+              <p className="text-xl text-gray-200 mb-8">
+                Se você está cansado de conteúdos vazios e prontos para uma jornada de evolução com significado… <strong className="text-white">Você encontrou seu lugar.</strong>
+              </p>
               <p className="text-2xl md:text-3xl text-white font-light leading-snug">
                 Nosso compromisso é com seu crescimento real. Queremos que você use a I.A. não para ser substituído, mas para se tornar <span className="font-bold bg-gradient-to-r from-emerald-400 to-blue-400 bg-clip-text text-transparent">mais humano</span>.
               </p>
@@ -170,7 +198,7 @@ function App() {
           </div>
         </div>
       </section>
-      {/* --- FIM DA SEÇÃO DO MANIFESTO --- */}
+      {/* --- FIM DA NOVA SEÇÃO DO MANIFESTO --- */}
 
       {/* Autoridade Conceitual - Caverna de Platão */}
       <section className="py-32 px-4 relative">
