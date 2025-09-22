@@ -517,7 +517,7 @@ function App() {
                 <img src={testimonial2Img} alt="NEXUS Mobile" className="absolute inset-0 w-full h-full object-cover" />
               </div>
               <div className="text-center">
-                <h3 className="text-xl font-semibold text-white mb-3">Mobilidade Total</h3>
+                <h3 className="text-xl font-semibold text-white mb-3">Juliano</h3>
                 <p className="text-gray-300 text-sm leading-relaxed">
                   "Ter o NEXUS sempre comigo no celular é incrível. Posso aplicar as técnicas de alta performance em qualquer lugar, a qualquer momento."
                 </p>
@@ -533,7 +533,7 @@ function App() {
                 <img src={testimonial3Img} alt="NEXUS Tablet" className="absolute inset-0 w-full h-full object-cover" />
               </div>
               <div className="text-center">
-                <h3 className="text-xl font-semibold text-white mb-3">Conforto e Praticidade</h3>
+                <h3 className="text-xl font-semibold text-white mb-3">Alessandro</h3>
                 <p className="text-gray-300 text-sm leading-relaxed">
                   "A experiência de leitura no tablet é fantástica. O conteúdo do NEXUS fica ainda mais envolvente e fácil de absorver."
                 </p>
