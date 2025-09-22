@@ -501,9 +501,9 @@ function App() {
                 <img src={testimonial1Img} alt="Profissional usando NEXUS" className="absolute inset-0 w-full h-full object-cover" />
               </div>
               <div className="text-center">
-                <h3 className="text-xl font-semibold text-white mb-3">Ambiente Profissional</h3>
+                <h3 className="text-xl font-semibold text-white mb-3">José Diego</h3>
                 <p className="text-gray-300 text-sm leading-relaxed">
-                  "O NEXUS transformou minha rotina de trabalho. Agora consigo processar informações 3x mais rápido e tomar decisões estratégicas com muito mais precisão."
+                  "O NEXUS transformou minha rotina de aprendizado. Agora consigo aprender e a processar informações 3x mais rápido e tomar decisões estratégicas com muito mais precisão."
                 </p>
                 <div className="mt-4 flex justify-center">
                   <div className="flex text-cyan-400">
