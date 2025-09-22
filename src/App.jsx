@@ -93,7 +93,7 @@ function App() {
               Mais que Ferramentas. <span className="bg-gradient-to-r from-cyan-400 to-emerald-400 bg-clip-text text-transparent">Uma Jornada.</span>
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Na internet de hoje, a inteligência artificial virou commodity. Em meio a tanto ruído, o que mais falta é <strong className="text-white">sentido</strong>.
+              Na internet de hoje, a inteligência artificial virou commodity. Mas em meio a tanto ruído, o que mais falta é <strong className="text-white">sentido</strong>.
             </p>
           </div>
           
