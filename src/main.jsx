@@ -7,7 +7,7 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter> {/* <--- REMOVA O BASENAME DAQUI */}
+   <BrowserRouter basename="/Nexus">
       <App />
     </BrowserRouter>
   </React.StrictMode>,
