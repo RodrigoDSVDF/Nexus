@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button.jsx';
-import { ArrowRight, Zap, Target, Globe, Key, Rocket, BookOpen, Brain, TrendingUp, CheckCircle, Sparkles, LayoutList, Menu, X, Instagram } from 'lucide-react';
+import { ArrowRight, Zap, Target, Globe, Key, Rocket, BookOpen, Brain, TrendingUp, CheckCircle, Sparkles, LayoutList, Menu, X, Instagram, AreaChart } from 'lucide-react'; // Adicionado AreaChart
 import QuemSomos from './pages/QuemSomos.jsx';
 import ProductDetails from './pages/ProductDetails.jsx';
 import FAQ from './pages/FAQ.jsx';
@@ -26,6 +26,51 @@ import neuralNetworkImg from './assets/1000393264.jpg';
 import brainAIImg from './assets/1000393262.jpg';
 import xadrezStrategiaImg from './assets/xadrez-estrategia.jpg';
 import novaImagemLogo from './assets/1000393277.png';
+
+
+// ===================================================================
+// INÍCIO DA SEÇÃO ADICIONADA: COMPONENTE DO DASHBOARD
+// ===================================================================
+
+function DashboardSection() {
+  return (
+    <AnimatedSection>
+      <section id="dashboard" className="py-32 px-4 bg-slate-800/30">
+        <div className="max-w-6xl mx-auto text-center">
+          <div className="inline-flex items-center px-6 py-3 bg-emerald-500/20 border border-emerald-400/30 rounded-full text-emerald-300 text-sm font-medium mb-8">
+            <AreaChart className="w-4 h-4 mr-2" />
+            Análise de Mercado em Tempo Real
+          </div>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">
+            Dashboard <span className="bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">Financeiro Interativo</span>
+          </h2>
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-12">
+            Explore os dados e visualize as tendências do mercado diretamente em nossa plataforma.
+          </p>
+
+          {/* O Iframe do seu Dashboard Streamlit vai aqui */}
+          <div className="bg-slate-900/50 p-4 rounded-2xl border border-blue-500/20 shadow-2xl">
+            <iframe
+              // ⚠️ SUBSTITUA PELA URL DO SEU DASHBOARD ⚠️
+              src="https://seu-dashboard.streamlit.app?embed=true"
+              height="800"
+              width="100%"
+              style={{ border: 'none', borderRadius: '8px' }}
+              title="Dashboard Financeiro Interativo"
+            >
+            </iframe>
+          </div>
+
+        </div>
+      </section>
+    </AnimatedSection>
+  );
+}
+
+// ===================================================================
+// FIM DA SEÇÃO ADICIONADA
+// ===================================================================
+
 
 function HomePage() {
   const [isVisible, setIsVisible] = useState(false);
@@ -343,6 +388,14 @@ function HomePage() {
           </div>
         </div>
       </section>
+
+
+      {/* =================================================================== */}
+      {/* LOCAL ONDE O DASHBOARD FOI INSERIDO */}
+      {/* =================================================================== */}
+      <DashboardSection />
+      {/* =================================================================== */}
+
 
       {/* SEÇÃO DO PORTFÓLIO */}
       <AnimatedSection>
