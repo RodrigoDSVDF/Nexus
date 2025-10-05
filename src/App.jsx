@@ -39,13 +39,13 @@ function DashboardSection() {
         <div className="max-w-6xl mx-auto text-center">
           <div className="inline-flex items-center px-6 py-3 bg-emerald-500/20 border border-emerald-400/30 rounded-full text-emerald-300 text-sm font-medium mb-8">
             <AreaChart className="w-4 h-4 mr-2" />
-            Análise de Mercado em Tempo Real
+            Análise de Desempenho de Alunos
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">
             Dashboard <span className="bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">Financeiro Interativo</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-12">
-            Explore os dados e visualize as tendências do mercado diretamente em nossa plataforma.
+            Explore os dados sobre o desempenho de alunos em um exame, a base de dados usada é de um repositório de dados público.
           </p>
 
           <div className="bg-slate-900/50 p-4 rounded-2xl border border-blue-500/20 shadow-2xl">
