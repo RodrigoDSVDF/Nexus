@@ -51,7 +51,7 @@ function DashboardSection() {
           <div className="bg-slate-900/50 p-4 rounded-2xl border border-blue-500/20 shadow-2xl">
             <iframe
               // ✅ LINK CORRETO INSERIDO AQUI ✅
-              src="https://dash-cripto.streamlit.app?embed=true"
+              src="https://estudo009.streamlit.app/?embed=true"
               height="800"
               width="100%"
               style={{ border: 'none', borderRadius: '8px' }}
