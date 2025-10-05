@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button.jsx';
-import { ArrowRight, Zap, Target, Globe, Key, Rocket, BookOpen, Brain, TrendingUp, CheckCircle, Sparkles, LayoutList, Menu, X, Instagram, AreaChart } from 'lucide-react'; // Adicionado AreaChart
+import { ArrowRight, Zap, Target, Globe, Key, Rocket, BookOpen, Brain, TrendingUp, CheckCircle, Sparkles, LayoutList, Menu, X, Instagram, AreaChart } from 'lucide-react';
 import QuemSomos from './pages/QuemSomos.jsx';
 import ProductDetails from './pages/ProductDetails.jsx';
 import FAQ from './pages/FAQ.jsx';
@@ -29,7 +29,7 @@ import novaImagemLogo from './assets/1000393277.png';
 
 
 // ===================================================================
-// INÍCIO DA SEÇÃO ADICIONADA: COMPONENTE DO DASHBOARD
+// COMPONENTE DO DASHBOARD COM O LINK CORRETO
 // ===================================================================
 
 function DashboardSection() {
@@ -48,11 +48,10 @@ function DashboardSection() {
             Explore os dados e visualize as tendências do mercado diretamente em nossa plataforma.
           </p>
 
-          {/* O Iframe do seu Dashboard Streamlit vai aqui */}
           <div className="bg-slate-900/50 p-4 rounded-2xl border border-blue-500/20 shadow-2xl">
             <iframe
-              // ⚠️ SUBSTITUA PELA URL DO SEU DASHBOARD ⚠️
-              src="https://seu-dashboard.streamlit.app?embed=true"
+              // ✅ LINK CORRETO INSERIDO AQUI ✅
+              src="https://dash-cripto.streamlit.app?embed=true"
               height="800"
               width="100%"
               style={{ border: 'none', borderRadius: '8px' }}
@@ -68,9 +67,6 @@ function DashboardSection() {
 }
 
 // ===================================================================
-// FIM DA SEÇÃO ADICIONADA
-// ===================================================================
-
 
 function HomePage() {
   const [isVisible, setIsVisible] = useState(false);
@@ -388,15 +384,9 @@ function HomePage() {
           </div>
         </div>
       </section>
-
-
-      {/* =================================================================== */}
-      {/* LOCAL ONDE O DASHBOARD FOI INSERIDO */}
-      {/* =================================================================== */}
+      
       <DashboardSection />
-      {/* =================================================================== */}
-
-
+      
       {/* SEÇÃO DO PORTFÓLIO */}
       <AnimatedSection>
         <section id="portfolio" className="py-32 px-4 bg-slate-900/50">
